@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -718123325,
-	"viewrect" : [ 19.0, 73.0, 300.0, 500.0 ],
+	"modificationdate" : -718125082,
+	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,27 +16,17 @@
 				"toplevel" : 1
 			}
 ,
-			"lecteurVideo.maxpat" : 			{
+			"envoiAudioReseau.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"detectionEnveloppe.maxpat" : 			{
+			"lecteurAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"receptionOSCVideo.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"receptionAudioReseau.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"effetDeplacement.maxpat" : 			{
+			"receptionOSCAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -44,14 +34,15 @@
 		}
 ,
 		"media" : 		{
-			"dinosaure.png" : 			{
-				"kind" : "imagefile",
+			"141.wav" : 			{
+				"kind" : "audiofile",
 				"local" : 1
 			}
-
-		}
 ,
-		"externals" : 		{
+			"dinosaure.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
 
 		}
 
