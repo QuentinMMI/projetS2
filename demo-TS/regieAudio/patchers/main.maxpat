@@ -127,7 +127,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 227.0, 119.0, 118.0, 22.0 ],
+					"patching_rect" : [ 228.0, 119.0, 118.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio.maxpat"
 				}
@@ -240,19 +240,19 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "envoiAudioReseau.maxpat",
-				"bootpath" : "/Volumes/i161140/Dentifrice (signal)/projetS2-master/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2/demo-TS/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lecteurAudio.maxpat",
-				"bootpath" : "/Volumes/i161140/Dentifrice (signal)/projetS2-master/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2/demo-TS/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receptionOSCAudio.maxpat",
-				"bootpath" : "/Volumes/i161140/Dentifrice (signal)/projetS2-master/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2/demo-TS/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
