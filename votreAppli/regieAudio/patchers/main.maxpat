@@ -38,14 +38,53 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 30.0, 139.0, 170.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurAudio.maxpat Rire.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 684.0, 139.0, 180.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurAudio.maxpat Plaisir.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 447.0, 198.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 492.0, 421.0, 184.0, 22.0 ],
+					"patching_rect" : [ 494.0, 421.0, 184.0, 22.0 ],
 					"style" : "",
-					"text" : "syntheseSoustractive.maxpat 64"
+					"text" : "syntheseSoustractive.maxpat 60"
 				}
 
 			}
@@ -58,7 +97,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 280.0, 421.0, 184.0, 22.0 ],
 					"style" : "",
-					"text" : "syntheseSoustractive.maxpat 61"
+					"text" : "syntheseSoustractive.maxpat 69"
 				}
 
 			}
@@ -68,7 +107,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.0, 549.0, 45.0, 45.0 ],
+					"patching_rect" : [ 263.0, 549.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -82,7 +121,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 71.0, 421.0, 184.0, 22.0 ],
 					"style" : "",
-					"text" : "syntheseSoustractive.maxpat 57"
+					"text" : "syntheseSoustractive.maxpat 65"
 				}
 
 			}
@@ -117,9 +156,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 456.0, 139.0, 168.0, 22.0 ],
+					"patching_rect" : [ 471.0, 139.0, 197.0, 22.0 ],
 					"style" : "",
-					"text" : "lecteurAudio.maxpat toto.wav"
+					"text" : "lecteurAudio.maxpat Ebullition.wav"
 				}
 
 			}
@@ -190,9 +229,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 248.0, 139.0, 168.0, 22.0 ],
+					"patching_rect" : [ 248.0, 139.0, 201.0, 22.0 ],
 					"style" : "",
-					"text" : "lecteurAudio.maxpat toto.wav"
+					"text" : "lecteurAudio.maxpat DingDong.wav"
 				}
 
 			}

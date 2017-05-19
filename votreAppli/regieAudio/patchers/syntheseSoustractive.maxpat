@@ -83,9 +83,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.571411, 127.062943, 72.0, 26.0 ],
+					"patching_rect" : [ 435.571411, 127.062943, 75.0, 26.0 ],
 					"style" : "",
-					"text" : "loadmess 2"
+					"text" : "loadmess 2."
 				}
 
 			}
@@ -342,7 +342,7 @@
 					"patching_rect" : [ 326.5, 228.388885, 22.0, 82.0 ],
 					"size" : 5,
 					"style" : "",
-					"value" : 2
+					"value" : 3
 				}
 
 			}
