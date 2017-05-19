@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 742.0, 284.0, 640.0, 671.0 ],
+		"rect" : [ 205.0, 88.0, 745.0, 774.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,9 +53,9 @@
 					"id" : "obj-63",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 24,
-					"outlettype" : [ "bang", "bang", "", "", "bang", "bang", "", "", "bang", "bang", "", "", "bang", "bang", "", "", "bang", "bang", "", "", "bang", "bang", "", "" ],
-					"patching_rect" : [ 218.0, 518.0, 158.0, 22.0 ],
+					"numoutlets" : 18,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 218.0, 518.0, 280.0, 22.0 ],
 					"style" : "",
 					"text" : "receptionOSCAudio.maxpat"
 				}
