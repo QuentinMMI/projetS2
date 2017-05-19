@@ -38,6 +38,31 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 761.0, 29.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 758.0, 29.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 71.0, 37.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -153,7 +178,6 @@
 					"numinlets" : 3,
 					"numoutlets" : 0,
 					"patching_rect" : [ 717.5, 274.0, 111.0, 22.0 ],
-					"presentation_rect" : [ 704.0, 268.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "envoiAudioReseau"
 				}
@@ -166,7 +190,6 @@
 					"numinlets" : 3,
 					"numoutlets" : 0,
 					"patching_rect" : [ 530.5, 274.0, 111.0, 22.0 ],
-					"presentation_rect" : [ 463.0, 270.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "envoiAudioReseau"
 				}
@@ -179,7 +202,6 @@
 					"numinlets" : 3,
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.5, 381.0, 111.0, 22.0 ],
-					"presentation_rect" : [ 161.0, 274.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "envoiAudioReseau"
 				}
@@ -354,9 +376,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 248.0, 139.0, 201.0, 22.0 ],
+					"patching_rect" : [ 248.0, 139.0, 197.0, 22.0 ],
 					"style" : "",
-					"text" : "lecteurAudio.maxpat DingDong.wav"
+					"text" : "lecteurAudio.maxpat DingDing.wav"
 				}
 
 			}
@@ -410,6 +432,15 @@
 					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -588,6 +619,17 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -597,6 +639,17 @@
 					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -773,57 +826,67 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-11::obj-4" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-12::obj-4" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-4::obj-4" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-12::obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-11::obj-4" : [ "live.gain~[1]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "envoiAudioReseau.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lecteurAudio.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receptionOSCAudio.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "syntheseSoustractive.maxpat",
-				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "osc.maxpat",
-				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filtrage.maxpat",
-				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pedaleWahWah.maxpat",
-				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2-2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ringModulation.maxpat",
-				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2-2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}

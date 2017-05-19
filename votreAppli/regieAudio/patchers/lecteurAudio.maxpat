@@ -43,9 +43,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 107.0, 117.0, 126.0, 22.0 ],
+					"patching_rect" : [ 19.0, 89.0, 161.0, 22.0 ],
 					"style" : "",
-					"text" : "buffer~ #0 #1"
+					"text" : "buffer~ #0-audio #1"
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 381.0, 40.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -160,7 +160,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 242.0, 40.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -251,7 +251,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 283.25, 360.0, 94.0, 22.0 ],
+					"patching_rect" : [ 283.25, 360.0, 128.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -260,7 +260,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 0.0, "ticks" ],
-						"originaltempo" : 120.0,
+						"originaltempo" : 119.999992,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -268,7 +268,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "groove~ #0 2"
+					"text" : "groove~ #0-audio 2"
 				}
 
 			}
