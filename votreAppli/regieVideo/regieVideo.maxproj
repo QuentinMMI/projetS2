@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716935690,
-	"viewrect" : [ 3.0, 188.0, 300.0, 500.0 ],
+	"modificationdate" : -716929759,
+	"viewrect" : [ 6.0, 271.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,16 +14,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"filtreBande.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"analyseSpectrale_1b.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"moduleReceptionAudio.maxpat" : 			{
@@ -41,7 +31,7 @@
 				"local" : 1
 			}
 ,
-			"detectionEnveloppe.maxpat" : 			{
+			"moduleAnalyseAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -51,17 +41,32 @@
 				"local" : 1
 			}
 ,
-			"pitchDetection.maxpat" : 			{
+			"analyseSpectrale_1b.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"moduleAnalyseAudio.maxpat" : 			{
+			"lecteurVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"filtreBande.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionEnveloppe.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"moduleAnalyseAudio2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pitchDetection.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -74,6 +79,30 @@
 		}
 ,
 		"media" : 		{
+			"Boue.jpeg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"Miam1.jpeg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"Miam2.jpeg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"Rire.jpeg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"Miam3.jpeg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
 
 		}
 

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 601.0, 102.0, 855.0, 638.0 ],
+		"rect" : [ 415.0, 113.0, 1231.0, 823.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,11 +38,257 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1148.0, 668.0, 129.0, 117.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1188.0, 510.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 1148.0, 609.0, 177.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurVideo.maxpat Boue.jpeg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 753.0, 800.0, 175.0, 20.0 ],
+					"style" : "",
+					"text" : "relier aux effets"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 723.0, 663.0, 129.0, 117.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 925.0, 658.0, 129.0, 117.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 965.0, 500.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 732.0, 508.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 925.0, 599.0, 177.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurVideo.maxpat Boue.jpeg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 462.0, 658.0, 129.0, 117.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 275.0, 653.0, 129.0, 117.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 504.0, 493.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 296.0, 500.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 256.0, 791.0, 175.0, 20.0 ],
+					"style" : "",
+					"text" : "à assembler"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 80.0, 663.0, 129.0, 117.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 95.0, 500.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 73.0, 609.0, 185.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurVideo.maxpat Miam1.jpeg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 489.0, 609.0, 185.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurVideo.maxpat Miam3.jpeg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 737.0, 609.0, 171.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurVideo.maxpat Rire.jpeg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 279.5, 609.0, 185.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurVideo.maxpat Miam2.jpeg"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 335.0, 340.0, 175.0, 20.0 ],
+					"patching_rect" : [ 174.0, 336.0, 175.0, 20.0 ],
 					"style" : "",
 					"text" : "detection enveloppe sonnette"
 				}
@@ -59,7 +305,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 722.0, 365.5, 56.0, 22.0 ],
+					"patching_rect" : [ 561.0, 361.5, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -76,7 +322,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 581.0, 376.5, 56.0, 22.0 ],
+					"patching_rect" : [ 420.0, 372.5, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -93,7 +339,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 350.0, 405.5, 56.0, 22.0 ],
+					"patching_rect" : [ 189.0, 401.5, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -110,7 +356,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 171.0, 403.5, 56.0, 22.0 ],
+					"patching_rect" : [ 10.0, 399.5, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -123,7 +369,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 338.0, 362.0, 172.0, 22.0 ],
+					"patching_rect" : [ 177.0, 358.0, 172.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleAnalyseAudio3.maxpat"
 				}
@@ -135,7 +381,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 541.0, 309.0, 149.0, 20.0 ],
+					"patching_rect" : [ 380.0, 305.0, 149.0, 20.0 ],
 					"style" : "",
 					"text" : "detection enveloppe rire\n"
 				}
@@ -148,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 523.0, 331.0, 172.0, 22.0 ],
+					"patching_rect" : [ 362.0, 327.0, 172.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleAnalyseAudio3.maxpat"
 				}
@@ -160,7 +406,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 713.5, 292.0, 175.0, 20.0 ],
+					"patching_rect" : [ 552.5, 288.0, 175.0, 20.0 ],
 					"style" : "",
 					"text" : "pitch detection eau qui boue"
 				}
@@ -173,7 +419,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 703.5, 314.0, 172.0, 22.0 ],
+					"patching_rect" : [ 542.5, 310.0, 172.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleAnalyseAudio2.maxpat"
 				}
@@ -186,7 +432,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 308.0, 175.0, 33.0 ],
+					"patching_rect" : [ -9.0, 304.0, 175.0, 33.0 ],
 					"style" : "",
 					"text" : "analyse spectrale 10 bandes cuisine"
 				}
@@ -199,7 +445,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 157.5, 343.0, 164.0, 22.0 ],
+					"patching_rect" : [ -3.5, 339.0, 164.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleAnalyseAudio.maxpat"
 				}
@@ -300,7 +546,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 243.0, 230.0, 176.0, 22.0 ],
+					"patching_rect" : [ 82.0, 226.0, 176.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleReceptionAudio.maxpat"
 				}
@@ -373,6 +619,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -382,10 +655,91 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -446,85 +800,91 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "moduleReceptionAudio.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "envoiAudioReseau.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "social.aif",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routerAudio.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "morph.256.rom.aif",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jongly.aif",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moduleAnalyseAudio.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "analyseSpectrale_10b.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "analyseSpectrale_1b.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filtreBande.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detectionEnveloppe.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moduleAnalyseAudio2.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pitchDetection.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moduleAnalyseAudio3.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lecteurVideo.maxpat",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
