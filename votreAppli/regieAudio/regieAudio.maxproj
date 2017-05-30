@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715968173,
+	"modificationdate" : -715965307,
 	"viewrect" : [ 35.0, 214.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,8 +16,9 @@
 				"toplevel" : 1
 			}
 ,
-			"transposition.maxpat" : 			{
-				"kind" : "patcher"
+			"receptionOSCAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"envoiAudioReseau.maxpat" : 			{
@@ -26,11 +27,6 @@
 			}
 ,
 			"lecteurAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"receptionOSCAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -58,6 +54,10 @@
 					"projectrelativepath" : "../../ressourcesMAX"
 				}
 
+			}
+,
+			"transposition.maxpat" : 			{
+				"kind" : "patcher"
 			}
 
 		}
@@ -87,10 +87,6 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
-
-		}
-,
-		"externals" : 		{
 
 		}
 

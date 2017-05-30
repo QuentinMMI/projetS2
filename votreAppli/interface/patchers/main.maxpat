@@ -38,6 +38,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "slider",
+					"min" : -5.0,
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 332.5, 379.5, 20.0, 140.0 ],
+					"size" : 10.0,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -153,24 +168,11 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 57.0, 129.0, 266.0, 22.0 ],
 					"style" : "",
 					"text" : "envoiOSCRegieAudio.maxpat AmbianceCuisine"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-63",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 18,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 218.0, 518.0, 280.0, 22.0 ],
-					"style" : "",
-					"text" : "receptionOSCAudio.maxpat"
 				}
 
 			}
@@ -217,7 +219,7 @@
 				"box" : 				{
 					"id" : "obj-61",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 376.0, 388.0, 219.0, 22.0 ],
 					"style" : "",
@@ -268,7 +270,7 @@
 				"box" : 				{
 					"id" : "obj-57",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 69.0, 388.0, 195.0, 22.0 ],
 					"style" : "",
@@ -319,7 +321,7 @@
 				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 376.0, 258.0, 206.0, 22.0 ],
 					"style" : "",
@@ -370,7 +372,7 @@
 				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 376.0, 129.0, 201.0, 22.0 ],
 					"style" : "",
@@ -421,7 +423,7 @@
 				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 57.0, 258.0, 223.0, 22.0 ],
 					"style" : "",
@@ -493,6 +495,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -670,25 +681,19 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "envoiOSCRegieAudio.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/interface/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "receptionOSCAudio.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/interface/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/interface/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "envoiOSCRegieVideo.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/interface/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/interface/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receptionOSCVideo.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/interface/patchers",
+				"bootpath" : "~/Documents/projetS2-2/votreAppli/interface/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
