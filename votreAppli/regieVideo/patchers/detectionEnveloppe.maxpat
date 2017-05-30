@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -203,7 +203,7 @@
 					"patching_rect" : [ 454.0, 90.884056, 74.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "flonum[1]",
+							"parameter_longname" : "flonum[24]",
 							"parameter_shortname" : "flonum[1]",
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
@@ -230,7 +230,7 @@
 					"patching_rect" : [ 375.0, 90.884056, 74.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "flonum",
+							"parameter_longname" : "flonum[25]",
 							"parameter_shortname" : "flonum",
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
@@ -466,8 +466,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
