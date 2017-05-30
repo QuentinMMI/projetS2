@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716929759,
+	"modificationdate" : -715966776,
 	"viewrect" : [ 6.0, 271.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,31 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"effetDeplacement.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"assemblage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"recadrage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"rotation.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"colorimetrie.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"moduleReceptionAudio.maxpat" : 			{
@@ -46,11 +71,6 @@
 				"local" : 1
 			}
 ,
-			"lecteurVideo.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"filtreBande.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -75,10 +95,20 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"lecteurVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
+			"Sonnette.jpeg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"Boue.jpeg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
