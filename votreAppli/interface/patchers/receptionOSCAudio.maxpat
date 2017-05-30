@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 976.0, 93.0, 1612.0, 857.0 ],
+		"rect" : [ 34.0, 93.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-3",
+					"index" : 16,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 975.666687, 370.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -65,7 +78,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-49",
-					"index" : 18,
+					"index" : 19,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -78,7 +91,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 17,
+					"index" : 18,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -91,7 +104,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-52",
-					"index" : 16,
+					"index" : 17,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -105,11 +118,11 @@
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 840.0, 264.5, 234.0, 22.0 ],
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 784.0, 265.5, 259.0, 22.0 ],
 					"style" : "",
-					"text" : "OSC-route /lecture /loop /envoieReseau"
+					"text" : "OSC-route /lecture /loop /envoieReseau /slider"
 				}
 
 			}
@@ -121,7 +134,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 977.666687, 370.0, 30.0, 30.0 ],
+					"patching_rect" : [ 930.666687, 370.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -134,7 +147,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 911.666687, 370.0, 30.0, 30.0 ],
+					"patching_rect" : [ 885.666687, 370.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -498,6 +511,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 3 ]
 				}
 
 			}
