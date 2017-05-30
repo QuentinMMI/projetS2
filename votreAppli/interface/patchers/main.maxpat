@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 52.0, 128.0, 1111.0, 774.0 ],
+		"rect" : [ 119.0, 132.0, 665.0, 774.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -155,9 +155,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 129.0, 209.0, 22.0 ],
+					"patching_rect" : [ 57.0, 129.0, 266.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiOSCRegieAudio.maxpat audio1"
+					"text" : "envoiOSCRegieAudio.maxpat AmbianceCuisine"
 				}
 
 			}
@@ -219,9 +219,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.0, 388.0, 209.0, 22.0 ],
+					"patching_rect" : [ 376.0, 388.0, 219.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiOSCRegieAudio.maxpat audio6"
+					"text" : "envoiOSCRegieAudio.maxpat Bourdon"
 				}
 
 			}
@@ -270,9 +270,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.0, 388.0, 209.0, 22.0 ],
+					"patching_rect" : [ 69.0, 388.0, 195.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiOSCRegieAudio.maxpat audio5"
+					"text" : "envoiOSCRegieAudio.maxpat Rire"
 				}
 
 			}
@@ -321,9 +321,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.0, 258.0, 209.0, 22.0 ],
+					"patching_rect" : [ 376.0, 258.0, 206.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiOSCRegieAudio.maxpat audio4"
+					"text" : "envoiOSCRegieAudio.maxpat Plaisir"
 				}
 
 			}
@@ -372,9 +372,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.0, 129.0, 209.0, 22.0 ],
+					"patching_rect" : [ 376.0, 129.0, 201.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiOSCRegieAudio.maxpat audio2"
+					"text" : "envoiOSCRegieAudio.maxpat Boue"
 				}
 
 			}
@@ -423,9 +423,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 258.0, 209.0, 22.0 ],
+					"patching_rect" : [ 57.0, 258.0, 223.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiOSCRegieAudio.maxpat audio3"
+					"text" : "envoiOSCRegieAudio.maxpat DingDing"
 				}
 
 			}

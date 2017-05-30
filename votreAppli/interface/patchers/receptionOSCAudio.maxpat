@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1612.0, 857.0 ],
+		"rect" : [ 976.0, 93.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -315,9 +315,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 135.0, 167.5, 324.0, 22.0 ],
+					"patching_rect" : [ 135.0, 167.5, 379.0, 22.0 ],
 					"style" : "",
-					"text" : "OSC-route /audio1 /audio2 /audio3 /audio4 /audio5 /audio6"
+					"text" : "OSC-route /AmbianceCuisine /Boue /DingDing /Plaisir /Rire /Bourdon"
 				}
 
 			}
