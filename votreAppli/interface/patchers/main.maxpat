@@ -38,58 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 775.0, 569.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 730.0, 569.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 678.0, 569.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 634.0, 569.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -159,9 +107,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 641.0, 212.0, 210.0, 22.0 ],
+					"patching_rect" : [ 641.0, 212.0, 202.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiOSCRegieVideo.maxpat Video2"
+					"text" : "envoiOSCRegieVideo.maxpat Miam"
 				}
 
 			}
@@ -171,9 +119,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 641.0, 405.0, 210.0, 22.0 ],
+					"patching_rect" : [ 641.0, 405.0, 221.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiOSCRegieVideo.maxpat Video4"
+					"text" : "envoiOSCRegieVideo.maxpat Sonnette"
 				}
 
 			}
@@ -183,9 +131,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 641.0, 311.0, 210.0, 22.0 ],
+					"patching_rect" : [ 641.0, 311.0, 195.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiOSCRegieVideo.maxpat Video3"
+					"text" : "envoiOSCRegieVideo.maxpat Rire"
 				}
 
 			}
@@ -195,9 +143,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 641.0, 101.0, 210.0, 22.0 ],
+					"patching_rect" : [ 641.0, 101.0, 201.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiOSCRegieVideo.maxpat Video1"
+					"text" : "envoiOSCRegieVideo.maxpat Boue"
 				}
 
 			}
@@ -550,42 +498,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -776,7 +688,7 @@
 			}
 , 			{
 				"name" : "receptionOSCVideo.maxpat",
-				"bootpath" : "~/Documents/projetS2/demo-TS/regieVideo/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/interface/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
