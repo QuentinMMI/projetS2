@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715966776,
+	"modificationdate" : -715966384,
 	"viewrect" : [ 6.0, 271.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"mixageVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"effetDeplacement.maxpat" : 			{
