@@ -38,9 +38,75 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "jit_matrix", "", "" ],
+					"patching_rect" : [ 569.5, 94.5, 230.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.net.recv @ip 192.168.0.25 @port 8666"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "jit_matrix", "", "" ],
+					"patching_rect" : [ 119.5, 106.5, 230.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.net.recv @ip 192.168.0.25 @port 8042"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "jit_matrix", "", "" ],
+					"patching_rect" : [ 264.5, 94.5, 230.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.net.recv @ip 192.168.0.25 @port 8012"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "jit_matrix", "", "" ],
+					"patching_rect" : [ 703.5, 152.5, 167.0, 35.0 ],
+					"style" : "",
+					"text" : "jit.net.recv @ip 192.168.0.25 @port 8568"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "jit_matrix", "", "" ],
+					"patching_rect" : [ 52.5, 165.5, 230.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.net.recv @ip 192.168.0.25 @port 8002"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -69,9 +135,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "", "" ],
-					"patching_rect" : [ 372.5, 150.5, 131.0, 22.0 ],
+					"patching_rect" : [ 413.5, 62.5, 230.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @port 8756"
+					"text" : "jit.net.recv @ip 192.168.0.25 @port 8222"
 				}
 
 			}
@@ -94,9 +160,52 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+ ]
 	}
 
 }

@@ -52,7 +52,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -90,11 +90,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.0, 45.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -104,7 +104,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -181,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.5, 169.0, 63.0, 22.0 ],
+					"patching_rect" : [ 375.5, 190.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "getlatency"
 				}
@@ -196,9 +196,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 161.0, 267.0, 212.0, 22.0 ],
+					"patching_rect" : [ 161.0, 267.0, 219.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.send @ip 127.0.0.1 @port 8756"
+					"text" : "jit.net.send @ip 192.168.0.33 @port #1"
 				}
 
 			}
@@ -337,7 +337,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
