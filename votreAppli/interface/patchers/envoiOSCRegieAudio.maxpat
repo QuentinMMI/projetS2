@@ -38,26 +38,14 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 908.5, 472.5, 34.0, 22.0 ],
-					"style" : "",
-					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 828.0, 387.0, 145.0, 22.0 ],
+					"patching_rect" : [ 828.0, 387.0, 215.0, 22.0 ],
 					"style" : "",
-					"text" : "/regieAudio/Rire/slider $1"
+					"text" : "/regieAudio/AmbianceCuisine/slider $1"
 				}
 
 			}
@@ -108,9 +96,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 537.0, 387.0, 229.0, 22.0 ],
+					"patching_rect" : [ 537.0, 387.0, 263.0, 22.0 ],
 					"style" : "",
-					"text" : "/regieAudio/Rire/envoieReseau $1"
+					"text" : "/regieAudio/AmbianceCuisine/envoieReseau $1"
 				}
 
 			}
@@ -134,9 +122,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 310.0, 387.0, 195.0, 22.0 ],
+					"patching_rect" : [ 310.0, 387.0, 209.0, 22.0 ],
 					"style" : "",
-					"text" : "/regieAudio/Rire/loop $1"
+					"text" : "/regieAudio/AmbianceCuisine/loop $1"
 				}
 
 			}
@@ -160,9 +148,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 73.0, 387.0, 195.0, 22.0 ],
+					"patching_rect" : [ 73.0, 387.0, 223.0, 22.0 ],
 					"style" : "",
-					"text" : "/regieAudio/Rire/lecture $1"
+					"text" : "/regieAudio/AmbianceCuisine/lecture $1"
 				}
 
 			}
@@ -173,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 522.0, 38.5, 101.0, 22.0 ],
+					"patching_rect" : [ 522.0, 38.5, 157.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess #1"
 				}
@@ -187,7 +175,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 411.0, 589.0, 160.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend 192.168.0.33 7500"
+					"text" : "udpsend 192.168.0.25 7500"
 				}
 
 			}
@@ -288,17 +276,6 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
 
