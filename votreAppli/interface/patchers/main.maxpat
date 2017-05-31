@@ -45,22 +45,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 332.5, 379.5, 20.0, 140.0 ],
+					"patching_rect" : [ 282.5, 311.0, 20.0, 140.0 ],
 					"size" : 10.0,
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 641.0, 518.0, 158.0, 22.0 ],
-					"style" : "",
-					"text" : "receptionOSCVideo.maxpat"
 				}
 
 			}
@@ -198,19 +185,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 525.0, 326.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-60",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 450.5, 326.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -644,15 +618,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -681,25 +646,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "envoiOSCRegieAudio.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/interface/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/interface/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "envoiOSCRegieVideo.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/interface/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/interface/patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "receptionOSCVideo.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/interface/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
