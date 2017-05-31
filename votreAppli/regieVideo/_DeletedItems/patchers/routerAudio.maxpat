@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 271.0, 234.0, 1000.0, 669.0 ],
+		"rect" : [ 192.0, 79.0, 1370.0, 824.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,26 +38,39 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-22",
+					"index" : 1,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 403.0, 736.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"data" : 					{
 						"clips" : [ 							{
 								"filename" : "jongly.aif",
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"speed" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
 									"originaltempo" : [ 120.0 ],
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
 									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"speed" : [ 1.0 ],
 									"pitchcorrection" : [ 0 ],
-									"formantcorrection" : [ 0 ],
 									"quality" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
 									"play" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
 									"pitchshift" : [ 1.0 ]
 								}
 
@@ -108,20 +121,20 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"speed" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
 									"originaltempo" : [ 120.0 ],
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
 									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"speed" : [ 1.0 ],
 									"pitchcorrection" : [ 0 ],
-									"formantcorrection" : [ 0 ],
 									"quality" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
 									"play" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
 									"pitchshift" : [ 1.0 ]
 								}
 
@@ -172,20 +185,20 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"speed" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
 									"originaltempo" : [ 120.0 ],
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
 									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"speed" : [ 1.0 ],
 									"pitchcorrection" : [ 0 ],
-									"formantcorrection" : [ 0 ],
 									"quality" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
 									"play" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
 									"pitchshift" : [ 1.0 ]
 								}
 
@@ -236,20 +249,20 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"speed" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
 									"originaltempo" : [ 120.0 ],
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
 									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"speed" : [ 1.0 ],
 									"pitchcorrection" : [ 0 ],
-									"formantcorrection" : [ 0 ],
 									"quality" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
 									"play" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
 									"pitchshift" : [ 1.0 ]
 								}
 
@@ -330,20 +343,20 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"speed" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
 									"originaltempo" : [ 120.0 ],
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
 									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"speed" : [ 1.0 ],
 									"pitchcorrection" : [ 0 ],
-									"formantcorrection" : [ 0 ],
 									"quality" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
 									"play" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
 									"pitchshift" : [ 1.0 ]
 								}
 
@@ -387,17 +400,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 169.5, 680.75, 45.0, 45.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -430,20 +432,20 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"speed" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
 									"originaltempo" : [ 120.0 ],
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
 									"mode" : [ "basic" ],
-									"followglobaltempo" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"speed" : [ 1.0 ],
 									"pitchcorrection" : [ 0 ],
-									"formantcorrection" : [ 0 ],
 									"quality" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
 									"play" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
 									"pitchshift" : [ 1.0 ]
 								}
 
@@ -527,7 +529,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
+					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 1 ]
@@ -536,7 +538,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
@@ -651,21 +653,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "morph.256.rom.aif",
-				"bootpath" : "C74:/packages/BEAP/misc",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jongly.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
