@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 281.0, 31.5, 101.0, 22.0 ],
+					"patching_rect" : [ 281.0, 31.5, 111.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess #1"
 				}
@@ -68,9 +68,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 214.0, 140.0, 22.0 ],
+					"patching_rect" : [ 184.0, 214.0, 160.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend 127.0.0.1 7400"
+					"text" : "udpsend 192.168.0.33 7400"
 				}
 
 			}
@@ -81,9 +81,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 161.5, 156.0, 166.0, 22.0 ],
+					"patching_rect" : [ 161.5, 156.0, 176.0, 22.0 ],
 					"style" : "",
-					"text" : "/regieVideo/Video1/lecture $1"
+					"text" : "/regieVideo/Sonnette/lecture $1"
 				}
 
 			}
