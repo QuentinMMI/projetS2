@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 232.0, 79.0, 1397.0, 856.0 ],
+		"rect" : [ 177.0, 79.0, 1397.0, 856.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 77.0, 93.0, 114.0, 22.0 ],
+					"style" : "",
+					"text" : "routerAudio.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 948.0, 183.0, 158.0, 22.0 ],
+					"patching_rect" : [ 960.0, 295.0, 158.0, 22.0 ],
 					"style" : "",
 					"text" : "receptionOSCVideo.maxpat"
 				}
@@ -55,7 +68,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 809.0, 755.0, 45.0, 45.0 ],
+					"patching_rect" : [ 821.0, 867.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -68,7 +81,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 125.0, 521.0, 50.0, 22.0 ],
+					"patching_rect" : [ 137.0, 633.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -80,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 91.0, 473.0, 24.0, 24.0 ],
+					"patching_rect" : [ 103.0, 585.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -92,7 +105,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 204.0, 503.0, 56.0, 22.0 ],
+					"patching_rect" : [ 216.0, 615.0, 56.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 0 1 2"
 				}
@@ -105,7 +118,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 204.0, 471.0, 71.0, 22.0 ],
+					"patching_rect" : [ 216.0, 583.0, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "counter 0 2"
 				}
@@ -118,7 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 30.0, 336.0, 44.0, 22.0 ],
+					"patching_rect" : [ 42.0, 448.0, 44.0, 22.0 ],
 					"style" : "",
 					"text" : "edge~"
 				}
@@ -131,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 30.0, 306.0, 45.0, 22.0 ],
+					"patching_rect" : [ 42.0, 418.0, 45.0, 22.0 ],
 					"style" : "",
 					"text" : ">~ 0.5"
 				}
@@ -144,7 +157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 30.0, 276.0, 158.0, 22.0 ],
+					"patching_rect" : [ 42.0, 388.0, 158.0, 22.0 ],
 					"style" : "",
 					"text" : "detectionEnveloppe.maxpat"
 				}
@@ -157,7 +170,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 631.0, 547.0, 24.0, 24.0 ],
+					"patching_rect" : [ 643.0, 659.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -169,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 421.5, 547.0, 24.0, 24.0 ],
+					"patching_rect" : [ 433.5, 659.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -181,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 215.0, 544.0, 24.0, 24.0 ],
+					"patching_rect" : [ 227.0, 656.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -193,7 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 591.0, 741.0, 129.0, 117.0 ]
+					"patching_rect" : [ 603.0, 853.0, 129.0, 117.0 ]
 				}
 
 			}
@@ -204,7 +217,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 577.0, 687.0, 120.0, 22.0 ],
+					"patching_rect" : [ 589.0, 799.0, 120.0, 22.0 ],
 					"style" : "",
 					"text" : "mixageVideo.maxpat"
 				}
@@ -217,7 +230,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1146.0, 543.0, 146.0, 22.0 ],
+					"patching_rect" : [ 1158.0, 655.0, 146.0, 22.0 ],
 					"style" : "",
 					"text" : "effetDeplacement.maxpat"
 				}
@@ -230,7 +243,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 913.5, 533.0, 93.0, 22.0 ],
+					"patching_rect" : [ 925.5, 645.0, 93.0, 22.0 ],
 					"style" : "",
 					"text" : "rotation.maxpat"
 				}
@@ -243,7 +256,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 701.5, 575.0, 107.0, 22.0 ],
+					"patching_rect" : [ 713.5, 687.0, 107.0, 22.0 ],
 					"style" : "",
 					"text" : "recadrage.maxpat"
 				}
@@ -256,7 +269,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1165.0, 410.0, 197.0, 22.0 ],
+					"patching_rect" : [ 1177.0, 522.0, 197.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat Sonnette.jpeg"
 				}
@@ -269,7 +282,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 908.0, 405.0, 177.0, 22.0 ],
+					"patching_rect" : [ 920.0, 517.0, 177.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat Boue.jpeg"
 				}
@@ -282,7 +295,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 49.0, 582.0, 185.0, 22.0 ],
+					"patching_rect" : [ 61.0, 694.0, 185.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat Miam1.jpeg"
 				}
@@ -295,7 +308,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 465.0, 582.0, 185.0, 22.0 ],
+					"patching_rect" : [ 477.0, 694.0, 185.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat Miam3.jpeg"
 				}
@@ -308,7 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 720.0, 415.0, 171.0, 22.0 ],
+					"patching_rect" : [ 732.0, 527.0, 171.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat Rire.jpeg"
 				}
@@ -321,7 +334,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 255.5, 582.0, 185.0, 22.0 ],
+					"patching_rect" : [ 267.5, 694.0, 185.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat Miam2.jpeg"
 				}
@@ -333,7 +346,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, 142.0, 175.0, 20.0 ],
+					"patching_rect" : [ 169.0, 254.0, 175.0, 20.0 ],
 					"style" : "",
 					"text" : "detection enveloppe sonnette"
 				}
@@ -350,7 +363,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 544.0, 167.5, 56.0, 22.0 ],
+					"patching_rect" : [ 556.0, 279.5, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -367,7 +380,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 403.0, 178.5, 56.0, 22.0 ],
+					"patching_rect" : [ 415.0, 290.5, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -384,7 +397,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 172.0, 207.5, 56.0, 22.0 ],
+					"patching_rect" : [ 184.0, 319.5, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -397,7 +410,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 160.0, 164.0, 172.0, 22.0 ],
+					"patching_rect" : [ 172.0, 276.0, 172.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleAnalyseAudio3.maxpat"
 				}
@@ -409,7 +422,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 363.0, 111.0, 149.0, 20.0 ],
+					"patching_rect" : [ 375.0, 223.0, 149.0, 20.0 ],
 					"style" : "",
 					"text" : "detection enveloppe rire\n"
 				}
@@ -422,7 +435,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 345.0, 133.0, 172.0, 22.0 ],
+					"patching_rect" : [ 357.0, 245.0, 172.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleAnalyseAudio3.maxpat"
 				}
@@ -434,7 +447,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 535.5, 94.0, 175.0, 20.0 ],
+					"patching_rect" : [ 547.5, 206.0, 175.0, 20.0 ],
 					"style" : "",
 					"text" : "pitch detection eau qui boue"
 				}
@@ -447,7 +460,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 525.5, 116.0, 172.0, 22.0 ],
+					"patching_rect" : [ 537.5, 228.0, 172.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleAnalyseAudio2.maxpat"
 				}
@@ -457,10 +470,10 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 65.0, 32.0, 176.0, 22.0 ],
+					"patching_rect" : [ 77.0, 144.0, 176.0, 22.0 ],
 					"style" : "",
 					"text" : "moduleReceptionAudio.maxpat"
 				}
@@ -632,28 +645,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-28", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-36", 0 ]
 				}
 
 			}
@@ -668,10 +663,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 1 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-41", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -886,6 +881,12 @@
 , 			{
 				"name" : "receptionOSCVideo.maxpat",
 				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "routerAudio.maxpat",
+				"bootpath" : "~/Downloads",
 				"type" : "JSON",
 				"implicit" : 1
 			}
