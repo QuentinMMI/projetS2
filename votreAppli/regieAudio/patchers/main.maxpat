@@ -42,7 +42,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 604.0, 45.0, 45.0 ],
+					"patching_rect" : [ 492.0, 632.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -132,7 +132,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1139.5, 274.0, 141.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiAudioReseau 8568"
+					"text" : "envoiAudioReseau 8002"
 				}
 
 			}
@@ -144,7 +144,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 884.5, 274.0, 141.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiAudioReseau 8666"
+					"text" : "envoiAudioReseau 8002"
 				}
 
 			}
@@ -206,7 +206,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 717.5, 274.0, 141.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiAudioReseau 8222"
+					"text" : "envoiAudioReseau 8002"
 				}
 
 			}
@@ -218,7 +218,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 530.5, 274.0, 141.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiAudioReseau 8012"
+					"text" : "envoiAudioReseau 8002"
 				}
 
 			}
@@ -367,7 +367,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 287.0, 274.0, 141.0, 22.0 ],
 					"style" : "",
-					"text" : "envoiAudioReseau 8042"
+					"text" : "envoiAudioReseau 8002"
 				}
 
 			}
@@ -386,6 +386,17 @@
 					"destination" : [ "obj-15", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -464,6 +475,17 @@
 					"destination" : [ "obj-19", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -730,6 +752,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 2,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -772,7 +804,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -784,6 +816,16 @@
 					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -802,7 +844,7 @@
 					"destination" : [ "obj-3", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -821,6 +863,17 @@
 					"destination" : [ "obj-23", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -839,7 +892,7 @@
 					"destination" : [ "obj-21", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -849,7 +902,17 @@
 					"destination" : [ "obj-21", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
+					"order" : 2,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -865,9 +928,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-4::obj-4" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-11::obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-12::obj-4" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-4::obj-4" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-12::obj-4" : [ "live.gain~[1]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
