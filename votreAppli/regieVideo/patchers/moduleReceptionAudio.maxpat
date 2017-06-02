@@ -43,9 +43,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "", "" ],
-					"patching_rect" : [ 569.5, 94.5, 230.0, 22.0 ],
+					"patching_rect" : [ 569.5, 94.5, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @ip 192.168.0.25 @port 8666"
+					"text" : "jit.net.recv @port 8666"
 				}
 
 			}
@@ -56,9 +56,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "", "" ],
-					"patching_rect" : [ 119.5, 106.5, 230.0, 22.0 ],
+					"patching_rect" : [ 119.5, 106.5, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @ip 192.168.0.25 @port 8042"
+					"text" : "jit.net.recv @port 8042"
 				}
 
 			}
@@ -69,23 +69,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "", "" ],
-					"patching_rect" : [ 264.5, 94.5, 230.0, 22.0 ],
+					"patching_rect" : [ 264.5, 94.5, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @ip 192.168.0.25 @port 8012"
+					"text" : "jit.net.recv @port 8012"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "", "" ],
-					"patching_rect" : [ 703.5, 152.5, 167.0, 35.0 ],
+					"patching_rect" : [ 703.5, 152.5, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @ip 192.168.0.25 @port 8568"
+					"text" : "jit.net.recv @port 8568"
 				}
 
 			}
@@ -96,9 +95,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "", "" ],
-					"patching_rect" : [ 52.5, 165.5, 230.0, 22.0 ],
+					"patching_rect" : [ 52.5, 165.5, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @ip 192.168.0.25 @port 8002"
+					"text" : "jit.net.recv @port 8002"
 				}
 
 			}
@@ -106,11 +105,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.5, 317.5, 30.0, 30.0 ],
+					"patching_rect" : [ 373.5, 480.5, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -122,7 +121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 403.5, 229.5, 79.0, 22.0 ],
+					"patching_rect" : [ 415.5, 392.5, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.release~ 1"
 				}
@@ -135,23 +134,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "", "" ],
-					"patching_rect" : [ 413.5, 62.5, 230.0, 22.0 ],
+					"patching_rect" : [ 413.5, 62.5, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.recv @ip 192.168.0.25 @port 8222"
+					"text" : "jit.net.recv @port 8222"
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
@@ -171,25 +161,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
@@ -205,7 +177,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
