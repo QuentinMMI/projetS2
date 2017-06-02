@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715885997,
+	"modificationdate" : -715703017,
 	"viewrect" : [ 40.0, 200.0, 300.0, 533.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,37 +16,12 @@
 				"toplevel" : 1
 			}
 ,
-			"receptionOSCVideo.maxpat" : 			{
+			"routerAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"moduleReceptionAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"moduleAnalyseAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"analyseSpectrale_10b.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"analyseSpectrale_1b.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"filtreBande.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"detectionEnveloppe.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -62,6 +37,11 @@
 			}
 ,
 			"moduleAnalyseAudio3.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionEnveloppe.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -92,6 +72,31 @@
 			}
 ,
 			"assemblage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSCVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"moduleAnalyseAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseSpectrale_10b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseSpectrale_1b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"filtreBande.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -133,6 +138,10 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 

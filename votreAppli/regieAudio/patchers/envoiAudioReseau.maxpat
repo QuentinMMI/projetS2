@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 104.0, 186.0, 888.0, 648.0 ],
+		"rect" : [ 190.0, 123.0, 888.0, 648.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -198,7 +198,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 161.0, 267.0, 232.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.send @ip 192.168.0.33 @port #1"
+					"text" : "jit.net.send @ip 192.162.0.33 @port #1"
 				}
 
 			}
