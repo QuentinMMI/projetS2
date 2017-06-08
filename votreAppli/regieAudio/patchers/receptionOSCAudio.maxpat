@@ -66,11 +66,11 @@
 					"id" : "obj-47",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1052.0, 293.5, 234.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1052.0, 293.5, 194.0, 22.0 ],
 					"style" : "",
-					"text" : "OSC-route /lecture /loop /envoieReseau"
+					"text" : "OSC-route /lecture /envoieReseau"
 				}
 
 			}
@@ -78,24 +78,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-49",
-					"index" : 19,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1193.0, 376.0, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-50",
 					"index" : 18,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1127.0, 376.0, 30.0, 30.0 ],
+					"patching_rect" : [ 1193.0, 376.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -583,15 +570,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-47", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-47", 1 ]
 				}
 
 			}
