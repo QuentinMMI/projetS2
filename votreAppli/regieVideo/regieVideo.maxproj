@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715703017,
+	"modificationdate" : -715197290,
 	"viewrect" : [ 40.0, 200.0, 300.0, 533.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,11 +14,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"routerAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"moduleReceptionAudio.maxpat" : 			{
@@ -81,6 +76,11 @@
 				"local" : 1
 			}
 ,
+			"routerAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"moduleAnalyseAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -102,6 +102,11 @@
 			}
 ,
 			"colorimetrie.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"testReception.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
