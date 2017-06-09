@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 239.5, 48.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 239.5, 48.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -98,7 +97,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 122.5, 42.0, 30.0, 30.0 ],
 					"style" : ""
 				}
