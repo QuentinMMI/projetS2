@@ -198,7 +198,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 161.0, 267.0, 232.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.send @ip 192.162.0.33 @port #1"
+					"text" : "jit.net.send @ip 192.168.0.33 @port #1"
 				}
 
 			}
