@@ -42,10 +42,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 446.0, 318.0, 32.0, 22.0 ],
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 446.0, 318.0, 35.0, 22.0 ],
 					"style" : "",
-					"text" : "* 50"
+					"text" : "* 50."
 				}
 
 			}
@@ -448,8 +448,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
