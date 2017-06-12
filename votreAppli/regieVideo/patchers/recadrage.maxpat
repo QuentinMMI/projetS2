@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 695.0, 79.0, 1051.0, 857.0 ],
+		"rect" : [ 595.0, 79.0, 1051.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -97,8 +97,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 146.0, 112.666687, 30.0, 30.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 264.0, 43.5, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -272,7 +272,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 184.499954, 362.666687, 134.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.movie @moviefile $1"
+					"text" : "jit.movie @moviefile #1"
 				}
 
 			}
@@ -288,7 +288,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
+					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
