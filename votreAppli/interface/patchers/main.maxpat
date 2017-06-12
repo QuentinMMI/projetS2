@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 358.0, 126.0, 792.0, 774.0 ],
+		"rect" : [ 358.0, 126.0, 908.0, 774.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.5, 92.5, 20.0, 462.0 ],
+					"patching_rect" : [ 107.5, 92.5, 20.0, 449.0 ],
 					"style" : "",
 					"text" : "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
@@ -87,9 +87,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 219.333328, 62.5, 45.0, 20.0 ],
+					"patching_rect" : [ 222.333328, 62.5, 39.0, 20.0 ],
 					"style" : "",
-					"text" : "Envoie",
+					"text" : "Envoi",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
