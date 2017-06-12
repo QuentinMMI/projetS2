@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 3,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 285.0, 207.0, 977.0, 611.0 ],
+		"rect" : [ 497.0, 79.0, 977.0, 637.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -143,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 535.0, 331.5, 43.0, 22.0 ],
+					"patching_rect" : [ 535.0, 300.5, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.rota"
 				}
@@ -156,7 +156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 386.0, 331.5, 43.0, 22.0 ],
+					"patching_rect" : [ 419.0, 296.5, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.rota"
 				}

@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 3,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 107.0, 79.0, 1297.0, 856.0 ],
+		"rect" : [ 34.0, 79.0, 1074.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,184 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 526.5, 443.0, 211.0, 20.0 ],
+					"presentation_rect" : [ 525.0, 444.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "ajouté pour tester manuellement"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1272.0, 389.0, 211.0, 20.0 ],
+					"presentation_rect" : [ 1269.0, 389.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "ajouté pour tester manuellement"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 997.0, 428.0, 211.0, 20.0 ],
+					"presentation_rect" : [ 994.5, 431.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "ajouté pour tester manuellement"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 666.5, 583.0, 211.0, 20.0 ],
+					"presentation_rect" : [ 708.0, 407.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "ajouté pour tester manuellement"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 264.0, 517.0, 211.0, 20.0 ],
+					"style" : "",
+					"text" : "ajouté pour tester manuellement"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "cym.aiff",
+								"filekind" : "audiofile",
+								"selection" : [ 0.259615, 1.0 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"formant" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ],
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"followglobaltempo" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"mode" : [ "basic" ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-29",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 374.5, 438.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1246.0, 389.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 971.0, 428.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 238.0, 514.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 643.0, 583.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 913.0, 823.0, 129.0, 117.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
@@ -321,9 +499,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 713.5, 687.0, 107.0, 22.0 ],
+					"patching_rect" : [ 706.5, 659.0, 159.0, 22.0 ],
 					"style" : "",
-					"text" : "recadrage.maxpat"
+					"text" : "recadrage.maxpat Rire.jpeg"
 				}
 
 			}
@@ -622,6 +800,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -671,10 +858,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -737,6 +942,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -746,10 +960,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -768,6 +1002,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
@@ -1005,89 +1248,95 @@
  ],
 		"parameters" : 		{
 			"obj-21::obj-35::obj-13" : [ "flonum[2]", "flonum", 0 ],
+			"obj-21::obj-35::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-13::obj-35::obj-13" : [ "flonum[4]", "flonum", 0 ],
 			"obj-46::obj-16" : [ "flonum[24]", "flonum[1]", 0 ],
 			"obj-46::obj-13" : [ "flonum[25]", "flonum", 0 ],
-			"obj-21::obj-35::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-13::obj-35::obj-16" : [ "flonum[3]", "flonum[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "moduleReceptionAudio.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moduleAnalyseAudio2.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pitchDetection.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moduleAnalyseAudio3.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detectionEnveloppe.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lecteurVideo.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "recadrage.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rotation.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "effetDeplacement.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mixageVideo.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "assemblage.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receptionOSCVideo.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routerAudio.maxpat",
-				"bootpath" : "~/Documents/projetS2-2/votreAppli/regieVideo/patchers",
+				"bootpath" : "~/Documents/GitKraken/thomasFuriet/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cym.aiff",
+				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
+				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
@@ -1198,8 +1447,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
